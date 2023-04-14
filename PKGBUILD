@@ -1,7 +1,7 @@
 # Maintainer: Christopher Arndt <aur -at- chrisarndt -dot- de>
 
 pkgname='pigpio'
-pkgver=79
+pkgver=500
 pkgrel=1
 pkgdesc="A C and Python library and system service for controlling GPIOs on a Raspberry Pi"
 url="http://abyz.me.uk/rpi/pigpio/"
@@ -10,8 +10,8 @@ arch=('i686' 'x86_64' 'aarch64' 'armv7h')
 depends=('python')
 provides=("python-${pkgname}")
 conflicts=("python-${pkgname}")
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/joan2937/${pkgname}/archive/v${pkgver}.tar.gz")
-sha256sums=('c5337c0b7ae888caf0262a6f476af0e2ab67065f7650148a0b21900b8d1eaed7')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/zrel/pigpio/blob/main/pigpio-${pkgver}.tar.gz")
+sha256sums=('d6ac12c3d842eac01f06d43f21b5d55b3f0e1fdc805f47aecba111a4b91c54ee')
 
 
 prepare() {
