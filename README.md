@@ -25,5 +25,5 @@ cd pigpio
 tar -xzvf pigpio-500.tar.gz
 cd pigpio-500
 make
-sudo LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/alarm/pigpio2/pigpio-500/ ./pigpiod -k
+sudo LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/alarm/pigpio/pigpio-500/ ./pigpiod -k
 ```
