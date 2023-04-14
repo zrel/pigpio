@@ -4,3 +4,4 @@ pigpio-*.tar.gz
 pigpio-*.pkg.tar.xz
 pigpio-*.pkg.tar.zst
 .AURINFO
+!pigpio-500.tar.gz
