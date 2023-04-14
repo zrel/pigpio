@@ -11,7 +11,7 @@ depends=('python')
 provides=("python-${pkgname}")
 conflicts=("python-${pkgname}")
 source=("${pkgname}-${pkgver}.tar.gz")
-sha256sums=('d6ac12c3d842eac01f06d43f21b5d55b3f0e1fdc805f47aecba111a4b91c54ee')
+sha256sums=('eba96b8e549dd0960de7f9c72c2757175de0bf5c40d4c5c11613923a8ebddcd5')
 # source=("${pkgname}-${pkgver}.tar.gz::https://github.com/zrel/pigpio/blob/main/pigpio-${pkgver}.tar.gz")
 # sha256sums=('07d8d5c0d16c1ef35e3c3d55ad1bfe2ee58853eba88b0ff62e8d3b1523d863a7')
 

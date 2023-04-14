@@ -18,3 +18,10 @@ Then you can run the pigpio service
 sudo systemctl enable pigpiod.service
 sudo systemctl start pigpiod.service
 ```
+## Test commands for direct execution
+```
+tar -xzvf pigpio-500.tar.gz
+cd pigpio-500
+make
+sudo LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/alarm/pigpio2/pigpio-500/ ./pigpiod -k
+```
