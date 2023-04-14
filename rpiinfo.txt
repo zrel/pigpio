@@ -1,0 +1,4 @@
+Hardware        : BCM2711
+Revision        : b03111
+Serial          : 10000000d055c1fd
+Model           : Raspberry Pi 4 Model B Rev 1.1
